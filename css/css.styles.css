@@ -1,0 +1,47 @@
+/* Selector universal
+*{
+margin: 0px;
+padding: 0PX;
+font-size: 30px;
+}
+/*
+
+/* Selector por atributo, o tipo*/
+h1 {
+    color: green;
+}
+
+/* Selector por id - Solo se puede aplicar a un elemneto*/
+#info {
+    color:black;
+    font-size: 20px;
+    text-align: left;
+    /* text-transform: uppercase; lowercase, capitalize*/
+}
+
+/*
+p {
+display: inline;
+text-decoration: underline;
+cursor: pointer;
+}
+*/
+
+/* Selector por clase, se puede aplicar a muchos etiqutas y muchos elemntos*/
+.misection {
+    
+}
+
+.textocentrado {
+    text-align: center;
+}
+
+.img img {
+    height:auto;
+    width:180px;
+
+}
+
+.img {
+    text-align: center;
+}

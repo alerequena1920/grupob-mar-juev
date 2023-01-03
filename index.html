@@ -1,1 +1,105 @@
-hola
+<!-- Indica que es un doc HTML 5-->
+<!DOCTYPE html> 
+<!-- etiqueta con atributos-->
+<html lang="es">
+    <!-- esto no se ve en el front-->
+    <head>
+        <meta charset="utf-8" />
+        <!-- Hojas de estilos-->
+        <title>
+            Bootcamp
+        </title>
+        <!-- Javascript-->
+    </head>
+
+    <!-- Es lo que vemos cuando navegamos -->
+    <body>
+        <!--estructura semantica de html 5-->
+        <header>
+            <!-- h1 es un elemento de bloque-->
+           <h1>
+            Argentina Campeón
+           </h1> 
+        </header>
+        <!-- el nav es un contenedor-->
+        <nav>
+            <!-- a es un elemento en linea-->
+            <h2>
+                Subtítulo
+            </h2>
+            <a href="https://www.google.com.ar"
+            target="_blank" >
+            Google
+            </a>
+            <a href="https://www.facebook.com.ar"
+            target="_blank" >
+            Facebook
+            </a>
+            <!-- acceso a formulario-->
+            <a href="./pages/formulario.html">
+                Formularios
+            </a>
+            <a href="./pages/tablas.html">
+                Tablas
+            </a>
+            <a href="./pages/css.html">
+                CSS
+            </a> 
+        </nav>
+        <main>
+            <!-- contenido principal-->
+            <section>
+                <!-- es para secciones dentro del doc-->
+                <h3>
+                    Jugadores
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nostrum, vero, libero eum ratione recusandae esse voluptatum dolores amet commodi incidunt a atque eaque deleniti inventore doloremque officia officiis mollitia?
+                </p>
+            </section>
+            <section>
+                <h3>
+                    Fotos
+                </h3>
+               <img 
+               src="https://tntsports.com.ar/__export/1671390109309/sites/tntsports/img/2022/12/18/messi_besa_la_copa_argentina_campeon_mundial_qatar_20222.jpg_423682103.jpg" 
+               alt="Messi" 
+               height="auto"
+               width="30%"
+               /> 
+               <img 
+               src="https://tntsports.com.ar/__export/1671390109309/sites/tntsports/img/2022/12/18/messi_besa_la_copa_argentina_campeon_mundial_qatar_20222.jpg_423682103.jpg" 
+               alt="Messi" 
+               height="auto"
+               width="30%"
+               /> 
+               <img 
+               src="./img/rr.jpg" 
+               alt="rr" 
+               height="auto"
+               width="30%"
+               /> 
+            </section>
+
+            <!-- contenido relacionado al principal-->
+            <article>
+                <h3>
+                    Partidos de Argentina
+                </h3> 
+                <!-- clista ordenada-->
+                <ol>
+                    <!-- clista items-->
+                    <li>Argentina 1 - Arabia 2</li>
+                    <li>Argentina 2 - Mex 0</li>
+                </ol>
+            </article>
+        </main>
+
+        <!-- aside va por fuera del main-->
+        <aside>
+            <h4>
+                Oferta de vuelos
+            </h4>
+        </aside>
+    </body>
+</html>
